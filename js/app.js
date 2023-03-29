@@ -42,6 +42,10 @@ function verMas() {
     // seccionNoticia.prepend(parrafoNuevo); //agrega al principio
     seccionNoticia.insertBefore(parrafoNuevo, btnVerMas);
 
+    // alternativa para crear maquetados grandes
+    // let parrafoNuevo2 = `<p class='lead'><b>Lorem ipsum dolor</b> sit amet consectetur adipisicing elit. Aliquid tenetur aperiam fugiat natus quaerat consequatur laudantium temporibus reiciendis odio? Quo possimus neque minus reprehenderit inventore, repudiandae sequi sit delectus quis?</p>`;
+    // seccionNoticia.innerHTML += parrafoNuevo2;
+
     //modificar el boton
     btnVerMas.innerHTML = "Ocultar";
     btnVerMas.className = "btn btn-danger";
