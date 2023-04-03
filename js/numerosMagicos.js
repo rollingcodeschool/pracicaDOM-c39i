@@ -7,7 +7,7 @@ formulario.addEventListener('submit', adivinar);
 //   adivinar('hola',1);
 // });
 
-// 1 a 50
+// 1 a 50t 
 function getRandom() {
     numeroMagico = Math.floor(Math.random() * (50 - 1) + 1);
     console.log(numeroMagico);
