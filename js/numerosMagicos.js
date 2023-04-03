@@ -1,6 +1,11 @@
 let numeroMagico = 0;
 let formulario = document.getElementById('formulario');
+// llamamos a una funcion sin argumentos
 formulario.addEventListener('submit', adivinar);
+// funcion que llamamos con argumentos
+// formulario.addEventListener('submit', ()=>{
+//   adivinar('hola',1);
+// });
 
 // 1 a 50
 function getRandom() {
